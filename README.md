@@ -198,10 +198,11 @@ Normal  Scheduled  28s   crane-scheduler  Successfully assigned default/cpu-stre
 
 ## Compatibility Matrix
 
-|  Scheduler Image Version       | Supported Kubernetes Version |
-| ------------------------------ | :--------------------------: | 
-|         0.0.23                 |        >=1.22.0              |
-|         0.0.20                 |        >=1.18.0              | 
+| Scheduler Image Version | Supported Kubernetes Version |
+|-------------------------|:----------------------------:|
+| 0.0.xx(TODO)            |           >=1.26.0           |
+| 0.0.23                  |           >=1.22.0           |
+| 0.0.20                  |           >=1.18.0           | 
 
 The default scheudler image version is `0.0.23`, and you can run the following command for quick replacement:
 
